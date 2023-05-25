@@ -1,0 +1,47 @@
+:root {
+  --bg-color: #fff;
+  box-shadow-1: 0px 0px 7px 2px rgba(0, 0, 0, 0.294384);
+}
+.card {
+  background-color: var(--bg-color);
+  flex: 1 0 16.5em;
+  min-width: 16.5em;
+  box-shadow: var(--box-shadow-1);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.image-container {
+  height: 160px;
+  width: 100%;
+}
+.card img {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 1.5em;
+  object-fit: cover;
+}
+.card p {
+  display: block;
+  font-weight: 800;
+  margin-left: 1.5em;
+  font-size: 1.125rem;
+  color: var(--color-text);
+  margin-bottom: 16px;
+}
+.country-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 1.5em;
+}
+.country-details span {
+  font-weight: 600;
+}
+.country-details p {
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+.country-details p:last-child {
+  margin-bottom: 46px;
+}
